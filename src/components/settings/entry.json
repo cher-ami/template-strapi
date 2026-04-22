@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_settings_entries",
+  "info": {
+    "displayName": "Dictionary Entry",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

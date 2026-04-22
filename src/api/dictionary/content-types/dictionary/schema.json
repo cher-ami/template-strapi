@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "dictionaries",
+  "info": {
+    "singularName": "dictionary",
+    "pluralName": "dictionaries",
+    "displayName": "Config - Dictionary"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "entries": {
+      "type": "component",
+      "component": "settings.entry",
+      "repeatable": true
+    },
+    "metaFields": {
+      "type": "component",
+      "component": "meta.meta",
+      "repeatable": false
+    }
+  }
+}
